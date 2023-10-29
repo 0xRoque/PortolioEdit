@@ -289,7 +289,6 @@ footer h2{
   cursor: pointer;
 }
 
-
 @media only screen and (max-width: 1279px){
   .about-me{
     display: block;
@@ -341,4 +340,28 @@ footer h2{
     font-size: 16px; /* Reduza tamanho da fonte para dispositivos móveis */
   }
 }
+
+/* Estilo para telas com largura menor ou igual a 768px (dispositivos móveis) */
+@media screen and (max-width: 1279px) {
+  header {
+    flex-direction: column; /* Empilhar elementos verticalmente */
+  }
+
+  .menu {
+    text-align: center; /* Centralizar o texto */
+    padding: 10px 0; /* Ajuste o espaçamento para dispositivos móveis */
+  }
+
+  .contact {
+    margin-top: 10px; /* Adicione margem superior para separação */
+    position: relative; /* Controlar a posição do botão(não sei outra forma(ainda))*/
+    left: 25px;
+
+  }
+}
+
+
+
+
+
 
