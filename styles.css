@@ -358,6 +358,13 @@ footer h2{
     left: 25px;
 
   }
+
+  .logo{
+    margin-top: 10px; /* Adicione margem superior para separação */
+    position: relative; /* Controlar a posição do botão(não sei outra forma(ainda))*/
+    right: 25px;
+  }
+
 }
 
 
