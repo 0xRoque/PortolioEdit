@@ -131,13 +131,6 @@ font-family: 'Open Sans', sans-serif;
   margin-top: 100px;
 }
 
-@media only screen and (max-width: 1279px){
-  .about-me{
-    display: block;
-  } 
-
-}
-
 
 .gojo{
   border-radius: 50%;
@@ -266,22 +259,6 @@ footer h2{
   transform: scale(1.5);
 }
 
-@media screen and (max-width: 1279px) {
-  .social-medias {
-    flex-direction: column; 
-    align-items: center;
-    gap: 10px; 
-  }
-}
-
-@media screen and (max-width: 1279px) {
-  .container{
-    flex-direction: column; 
-    align-items: center;
-    gap: 10px; 
-  }
-}
-
 
 .rights{
   position: absolute;
@@ -311,3 +288,57 @@ footer h2{
   border-color:var(--button);
   cursor: pointer;
 }
+
+
+@media only screen and (max-width: 1279px){
+  .about-me{
+    display: block;
+    text-align: center;
+    flex-direction: column; 
+    align-items: center;
+    gap: 10px; 
+
+  } 
+}
+
+/* Regras @media para dispositivos móveis/tablet */
+@media screen and (max-width: 1279px) {
+  .social-medias {
+    flex-direction: column; 
+    align-items: center;
+    gap: 10px; 
+  }
+}
+
+/* Estilos para telas com largura menor igual a 1279*/ 
+@media screen and (max-width: 1279px) {
+  .container{
+    flex-direction: column; /* Empliphar elementos verticalmente*/
+    align-items: center;/*Centralizar os elementos horizontalmente no .container */
+    gap: 10px; /* Adicionar espaçamento entre os elementos empilhados verticalmente */
+  }
+}
+
+/* Estilo para telas com largura menor ou igual a 1279px*/
+@media screen and (max-width: 1279px) {
+  #about-me {
+    padding: 50px; /* Reduza o espaçamento para dispositivos de tela média */
+  }
+  .gojo {
+    max-width: 80%; /* Reduza o tamanho da imagem para caber em telas menores */
+  }
+}
+
+/* Para telas com largura menor ou igual a 768px dispositivos móveis */
+@media screen and (max-width: 768px) {
+  #about-me {
+    padding: 20px; /* Reduza ainda mais o espaçamento para dispositivos móveis */
+  }
+  .gojo {
+    max-width: 100%; /* Ajuste a imagem para a largura máxima da tela */
+  }
+  .about-me p {
+    font-size: 16px; /* Reduza tamanho da fonte para dispositivos móveis */
+  }
+}
+
