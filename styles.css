@@ -67,10 +67,7 @@ button:hover{
 h1,h2{
   font-size: 34px;
   color:var(--headline);
-  font-family: 'Noto Serif', serif;
-  font-family: 'Pacifico', cursive;
-  letter-spacing: 3px; /* Aumenta o espaçamento entre as letras em 2 pixels */
-
+  font-family: 'Open Sans', sans-serif;
 }
 
 h2{
@@ -81,8 +78,7 @@ h2{
 p{
   font-size:16px ;
   color:var(--paragrahp);
-
-font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 
 }
 .myName{
@@ -108,8 +104,7 @@ font-family: 'Open Sans', sans-serif;
   padding-top: 100px;
 }
 #about-me h1{
-  font-family: 'Noto Serif', serif;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -313,55 +308,55 @@ footer h2{
 @media screen and (max-width: 1279px) {
   .container{
     flex-direction: column; /* Empliphar elementos verticalmente*/
-    align-items: center;/*Centralizar os elementos horizontalmente no .container */
-    gap: 10px; /* Adicionar espaçamento entre os elementos empilhados verticalmente */
+    align-items: center;/*Centraliza os elementos horizontalmente no .container */
+    gap: 10px; /* Adiciona espaçamento entre os elementos empilhados verticalmente */
   }
 }
 
 /* Estilo para telas com largura menor ou igual a 1279px*/
 @media screen and (max-width: 1279px) {
   #about-me {
-    padding: 50px; /* Reduza o espaçamento para dispositivos de tela média */
+    padding: 50px; /* Reduz o espaçamento para dispositivos de telas médias */
   }
   .gojo {
-    max-width: 80%; /* Reduza o tamanho da imagem para caber em telas menores */
+    max-width: 80%; /* Reduz o tamanho da imagem para caber em telas menores */
   }
 }
 
 /* Para telas com largura menor ou igual a 768px dispositivos móveis */
 @media screen and (max-width: 768px) {
   #about-me {
-    padding: 20px; /* Reduza ainda mais o espaçamento para dispositivos móveis */
+    padding: 20px; /* Reduz espaçamento para dispositivos móveis */
   }
   .gojo {
     max-width: 100%; /* Ajuste a imagem para a largura máxima da tela */
   }
   .about-me p {
-    font-size: 16px; /* Reduza tamanho da fonte para dispositivos móveis */
+    font-size: 16px; /* Reduz o tamanho da fonte para telemovel */
   }
 }
 
 /* Estilo para telas com largura menor ou igual a 768px (dispositivos móveis) */
 @media screen and (max-width: 1279px) {
   header {
-    flex-direction: column; /* Empilhar elementos verticalmente */
+    flex-direction: column; /* Empilha elementos verticalmente */
   }
 
   .menu {
-    text-align: center; /* Centralizar o texto */
-    padding: 10px 0; /* Ajuste o espaçamento para dispositivos móveis */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px 0; /* Ajusta o espaçamento para telemoveis*/
   }
 
   .contact {
-    margin-top: 10px; /* Adicione margem superior para separação */
-    position: relative; /* Controlar a posição do botão(não sei outra forma(ainda))*/
+    margin-top: 10px; /* Adiciona margem superior para separação */
+    position: relative; /* Controla a posição do botão(não sei outra forma(ainda))*/
     left: 25px;
 
   }
 
   .logo{
-    margin-top: 10px; /* Adicione margem superior para separação */
-    position: relative; /* Controlar a posição do botão(não sei outra forma(ainda))*/
+    margin-top: 10px; /* Adiciona margem superior para separação */
+    position: relative; /* Controla a posição do botão(não sei outra forma(ainda))*/
     right: 25px;
   }
 
