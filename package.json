@@ -1,0 +1,14 @@
+{
+  "name": "portolioedit",
+  "version": "1.0.0",
+  "description": "Projeto criado para as aulas de html/css!",
+  "main": "script.js",
+  "scripts": {
+    "batatas": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.69.5"
+  }
+}
